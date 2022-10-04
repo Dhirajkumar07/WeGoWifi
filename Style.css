@@ -1,0 +1,342 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+ body{
+    width: 100%;
+    height: 100vh;
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     padding: 1rem;
+     background-color: black;
+     color: white;
+ }
+
+ .left_nav {
+     display: grid;
+     grid-template-columns: 1.5fr 1fr 1.5fr;
+
+ }
+
+ .control_img_sec {
+     background-color: black;
+     width: 100%;
+     height: 30rem;
+ }
+
+ .img_sec {
+     position: absolute;
+     top: 6rem;
+     left: 6rem;
+     right: 6rem;
+
+ }
+
+ .img_content {
+     position: absolute;
+     top: 5rem;
+     left: 7rem;
+ }
+
+ .down_content {
+     width: 100%;
+     height: 6rem;
+     position: relative;
+     background-color: black;
+ }
+
+ .down_content_control {
+     display: flex;
+     justify-content: space-between;
+     position: absolute;
+     top: 1rem;
+     left: 6rem;
+     right: 6rem;
+ }
+
+ .div_3rd {
+     width: 100%;
+     height: 22rem;
+     position: relative;
+     background-color: rgb(233, 233, 233);
+ }
+
+ .div_3rd_in {
+     position: absolute;
+     margin: 3rem 6rem;
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+ }
+
+ .div_4 {
+     width: 100%;
+     height: 30rem;
+     position: relative;
+ }
+
+ .div_4_control {
+     position: absolute;
+     margin: 3rem 6rem;
+ }
+
+ .div_5 {
+     width: 100%;
+     height: 40rem;
+     position: relative;
+ }
+
+ .div_5_control {
+     position: absolute;
+     margin: 3rem 6rem;
+ }
+
+ .div_6 {
+     width: 100%;
+     height: 35rem;
+     position: relative;
+ }
+
+ .div_6_control {
+     position: absolute;
+     margin: 3rem 6rem;
+ }
+
+ @media screen and (min-width: 320px) and (max-width: 375px) {
+     body {
+         width: 100%;
+     }
+
+     .navbar {
+         width: 100%;
+         position: sticky !important;
+         z-index: 1000 !important;
+     }
+
+     .navbar .left_nav h2 {
+         font-size: 1rem;
+     }
+
+     .navbar .left_nav p {
+         font-size: 0.5rem;
+     }
+
+     .navbar .right_nav p {
+         font-size: 0.5rem;
+     }
+
+     .control_img_sec {
+         background-color: black;
+         width: 100%;
+         height: 17rem;
+     }
+
+     .img_sec {
+         position: absolute;
+         top: 4.5rem;
+         left: 1rem;
+         right: 1rem;
+
+     }
+
+     .top_img {
+         height: 15rem !important;
+     }
+
+     .img_content {
+         position: absolute;
+         top: 4rem;
+         left: 1.5rem;
+     }
+
+     .head_img_con {
+         font-size: 1rem;
+     }
+
+     .para_img_con {
+         font-size: 0.5rem;
+     }
+
+     .down_content {
+         width: 100%;
+         height: 5rem;
+         position: relative;
+         background-color: black;
+     }
+
+     .down_content_control {
+         width: 80%;
+         display: grid;
+         grid-template-rows: 1.5fr 1fr;
+         position: absolute;
+         top: 1rem;
+         left: 1.5rem;
+     }
+
+     .head_down_con {
+         font-size: 0.6rem;
+     }
+
+     .para_down_con {
+         font-size: 0.4rem !important;
+
+     }
+
+     .down_content_left {
+         display: flex;
+         justify-content: space-between;
+     }
+
+     .btn_down_con {
+         width: 6rem !important;
+         height: 1rem !important;
+         margin: 0rem !important;
+         padding: 0rem !important;
+         font-size: 0.3rem !important;
+         letter-spacing: 0rem !important;
+         word-spacing: 0rem !important;
+         border: none;
+         margin: 0 6.5rem !important;
+     }
+
+     .div_3rd {
+         width: 100%;
+         height: 45rem;
+         position: relative;
+         background-color: rgb(233, 233, 233);
+     }
+
+     .div_3rd_in {
+         position: absolute;
+         margin: 1.5rem;
+         display: flex;
+         flex-direction: column;
+     }
+
+     .side_content {
+         display: flex !important;
+         flex-direction: column;
+         margin: 0.5rem 2rem;
+         gap: 3rem !important;
+         
+     }
+
+     .head_div_3rd {
+         margin: 1rem auto;
+         text-align: center;
+     }
+
+     .div_4 {
+         width: 100%;
+         height: 45rem;
+         position: relative;
+     }
+
+     .div_4_control {
+         position: absolute;
+         margin: 1rem 1.5rem;
+     }
+
+     .div_4_in {
+         display: flex !important;
+         flex-direction: column;
+         gap: 2rem !important;
+        
+     }
+    .div_4_left{
+        display: grid ;
+        grid-template-rows: 0.5fr 1fr !important;
+    }
+
+     .head_div_4th {
+         text-align: center;
+     }
+
+     .kam {
+         box-shadow: 0rem 0.6rem 0.9rem 0 rgb(195, 195, 195);
+         height: 15rem !important;
+     }
+
+     .div_5 {
+         width: 100%;
+         height: 65rem;
+         position: relative;
+     }
+
+     .div_5_control {
+         position: absolute;
+         margin: 3rem 1.5rem;
+     }
+
+     .div_5_in {
+         display: flex !important;
+         flex-direction: column;
+     }
+    .div_5_right{
+        display: grid;
+        grid-template-rows: 0.5fr 1fr 0.5fr 1fr !important;
+        gap: 1rem !important;
+    }
+    .img_div_5{
+        box-shadow: 0rem 0.6rem 0.9rem 0 rgb(195, 195, 195);
+        height: 15rem !important;
+    }
+     .div_6 {
+         width: 100%;
+         height: 38rem;
+         position: relative;
+     }
+
+     .div_6_control {
+         position: absolute;
+         margin: 2rem 1.5rem;
+     }
+
+     .div_6_in {
+         display: flex !important;
+         flex-direction: column;
+         margin: 0% !important;
+     }
+     .div_6_left{
+        display: grid;
+        grid-template-rows:  1fr  0.5fr !important;
+        gap: 1rem !important;
+     }
+     .img_div_6{
+        box-shadow: 0rem 0.6rem 0.9rem 0 rgb(195, 195, 195);
+        height: 15rem !important;
+     }
+    .footer_1{
+        height: 8rem !important;
+    }
+     .footer_1_control{
+        position: absolute !important;
+        margin: 1rem 1.5rem !important;
+        display: flex !important;
+        flex-direction: column;
+     }
+     .btn_f{
+        width: 6rem !important;
+        height: 1rem !important;
+        margin: 0rem !important;
+        padding: 0.1rem !important;
+        font-size: 0.3rem !important;
+        letter-spacing: 0rem !important;
+        word-spacing: 0rem !important;
+        border: none;
+     }
+     .last_nav_1{
+        position: absolute !important;
+        margin: 1rem 0rem !important;
+        padding: 1rem !important;
+     }
+     .last_content{
+        height: 15rem !important;
+     }
+
+ }
